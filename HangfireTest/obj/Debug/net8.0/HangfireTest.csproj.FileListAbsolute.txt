@@ -55,3 +55,4 @@ D:\TI\Estudos\Youtube\C#\HangfireTest\HangfireTest\bin\Debug\net8.0\runtimes\win
 D:\TI\Estudos\Youtube\C#\HangfireTest\HangfireTest\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
 D:\TI\Estudos\Youtube\C#\HangfireTest\HangfireTest\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\TI\Estudos\Youtube\C#\HangfireTest\HangfireTest\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\TI\Estudos\Youtube\C#\HangfireTest\HangfireTest\obj\Debug\net8.0\HangfireTest.sourcelink.json

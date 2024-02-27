@@ -1,4 +1,5 @@
 using Hangfire;
+using HangfireTest.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,9 @@ builder.Services.AddHangfire(x => x.UseSqlServerStorage(builder.Configuration.Ge
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddTransient<IEmailServices, EmailService>();
+
 
 var app = builder.Build();
 
@@ -18,6 +22,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// Hangfire Dashboard
 app.UseHangfireDashboard("/myDashboard");
 
 app.UseHttpsRedirection();
